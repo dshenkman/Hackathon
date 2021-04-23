@@ -1,0 +1,35 @@
+body {
+	background-color: pink;
+	margin: none;
+	padding: none;
+}
+
+#top {
+	margin-top: 5%;
+}
+
+.ebox {
+	height: 100px;
+	width: 120px;
+	background-color: green;
+	border: 1px solid white;
+}
+
+#emptyboxes {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+#wordboxes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+.wbox {
+	height: 80px;
+	width: 100px;
+	background-color: blue;
+	border: 1px solid white;
+}
